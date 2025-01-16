@@ -1,0 +1,69 @@
+.logo {
+    width: 100px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    border: ridge 6px #f90303;
+}
+
+.reporte {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    border: ridge 6px #eb0909;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f00;
+    /* Rojo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    /* Centrar horizontalmente */
+    position: relative;
+    /* Para posicionar el botón */
+    overflow: hidden;
+    /* Recortar la imagen si se sale del círculo */
+}
+
+.circle img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.btn-circle {
+    position: absolute;
+    bottom: 10px;
+    /* Ajustar la posición vertical del botón */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Centrar horizontalmente el botón */
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.confia {
+    border: 3px solid red;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.confia h2 {
+    color: red;
+    font-weight: bold;
+}
